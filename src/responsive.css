@@ -1,0 +1,7 @@
+@media screen and (min-width: 656px) {
+    body {
+        background-color: var(--cor-de-fundo);
+        background: url('../images/bg-desktop.svg');
+    }
+
+}

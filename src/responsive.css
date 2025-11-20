@@ -1,7 +1,82 @@
-@media screen and (min-width: 656px) {
+@media screen and (min-width: 768px) and (max-width: 1179px) {
     body {
-        background-color: var(--cor-de-fundo);
         background: url('../images/bg-desktop.svg');
+        background-color: var(--cor-de-fundo);
     }
 
+    .container {
+        display: flex;
+        height: 100vh;
+        width: 100vw;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+    }
+
+    .logo-imagem {
+        flex-direction: column;
+        margin-left: 4%;
+    }
+
+    .logo-imagem .imagem {
+        width: 420px;
+    }
+
+    .titulo-texto {
+        margin-left: 20px;
+        margin-right: 4%;
+        text-align: left;
+    }
+
+    .social {
+        position: absolute;
+        margin-top: 550px;
+        right: 4%;
+    }
+}
+
+@media screen and (min-width: 1180px) {
+    body {
+        background-color: var(--cor-de-fundo)
+    }
+    
+    .container {
+        display: flex;
+        max-height: 100vh;
+        align-items: center;
+    }
+
+    .logo-imagem {
+        margin-right: 70px;
+        margin-left: -500px;
+        padding: 100px;
+    }
+
+    .logo-imagem .logo {
+        margin-top: 100px;
+        width: 200px;
+    }
+
+    .logo-imagem .imagem {
+        margin-top: 60px;
+        width: 600px;
+    }
+
+    .titulo-texto {
+        text-align: left;
+        width: 400px;
+        margin-left: -100px;
+    }
+    
+    .titulo-texto .titulo {
+        width: 400px;
+        font-size: 30px;
+    }
+
+    .social {
+        position: absolute;
+        margin-top: 550px;
+        right: 100px;
+    }
 }
